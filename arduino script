@@ -16,3 +16,6 @@ void loop() {
     delay(30);
   }
 }
+#delay(30) → servo bergerak lambat (posisi bertahap).
+#delay(5) → servo bergerak lebih cepat.
+#Jika langsung myservo.write(180); dari posisi 0°, servo akan bergerak ke 180° dengan kecepatan maksimum bawaan.
